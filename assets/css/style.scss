@@ -97,6 +97,7 @@ select {
 /*#endregion*/
 
 :root {
+  --border-radius-default: 0.5rem;
   --color-neutral-gray-100: #ecf2f8;
   --color-neutral-gray-200: #cfcfcf;
   --color-primary-blue-700: #19202d;
@@ -105,9 +106,112 @@ select {
   --color-primary-violet-500: #733fc8;
   --color-primary-white-100: #ffffff;
   --font-family: 'Barlow Semi Condensed', sans-serif;
-  --font-size-text: 0.8125rem;
-  --font-size-text-small: 0.6875rem;
   --font-size-text-large: 1.25rem;
+  --font-size-text-small: 0.6875rem;
+  --font-size-text: 0.8125rem;
   --font-weight-medium: 500;
   --font-weight-semi-bold: 600;
+}
+
+body {
+  background-color: var(--color-neutral-gray-100);
+  font-family: var(--font-family);
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-medium);
+}
+
+.border-violet-300 {
+  border: 2px solid var(--color-primary-violet-300);
+}
+
+.bg-violet-500 {
+  background-color: var(--color-primary-violet-500);
+}
+
+.bg-gray-500 {
+  background-color: var(--color-primary-gray-500);
+}
+
+.bg-white-100 {
+  background-color: var(--color-primary-white-100);
+}
+
+.bg-blue-700 {
+  background-color: var(--color-primary-blue-700);
+}
+
+.text-white-100 {
+  color: var(--color-primary-white-100);
+}
+
+.text-gray-100 {
+  color: var(--color-neutral-gray-100);
+}
+
+.text-gray-500 {
+  color: var(--color-primary-gray-500);
+}
+
+.testimonial__cards {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.testimonial__card {
+  border-radius: var(--border-radius-default);
+  box-shadow: 2.5rem 3.75rem 3.13rem -2.94rem rgba(72, 85, 106, 0.25);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, min-content);
+  padding: 2rem;
+}
+
+.testimonial__card-header {
+  column-gap: 1.06rem;
+  row-gap: 0.25rem;
+  display: grid;
+  grid-template-areas:
+    "image name"
+    "image status";
+  grid-template-columns: 1.75rem 1fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.reviewer-name {
+  grid-area: name
+}
+.reviewer-status {
+  grid-area: status;
+}
+
+.reviewer-image {
+  border-radius: 50%;
+  grid-area: image;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.reviewer-name {
+  font-size: var(--font-size-text);
+  line-height: 0.8125rem;
+}
+
+.reviewer-status {
+  font-size: var(--font-size-text-small);
+  line-height: 0.6875rem;
+  opacity: 0.5;
+}
+
+.review:first-of-type {
+  font-size: var(--font-size-text-large);
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.2;
+  margin-top: 1.125rem;
+}
+
+.review:last-of-type {
+  line-height: 1.13rem;
+  margin-top: 1rem;
+  opacity: 0.7;
 }

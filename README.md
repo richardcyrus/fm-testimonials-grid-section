@@ -26,6 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
+ - [Mobile](./design/screenshots/mobile-screenshot.jpg)
+ - [Tablet](./design/screenshots/tablet-screenshot.jpg)
+ - [Desktop](./design/screenshots/desktop-screenshot.jpg)
+
 #### Reference Images
 
  - [Mobile](./design/reference/mobile-design.jpg)
@@ -42,14 +46,12 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### Useful resources
 
 - [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)
-- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ## Author

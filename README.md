@@ -37,7 +37,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/richardcyrus/fm-testimonials-grid-section)
+- [Solution URL](https://www.frontendmentor.io/solutions/testimonials-grid-section-html-css-cssgrid-e7M1wUIwu)
+- [Repository URL](https://github.com/richardcyrus/fm-testimonials-grid-section)
 - [Live Site URL](https://richardcyrus.github.io/fm-testimonials-grid-section)
 
 ## My process
@@ -57,4 +58,4 @@ Users should be able to:
 ## Author
 
 - Website - [www.richardcyrus.com](https://www.richardcyrus.com)
-- Frontend Mentor - [@richarcyrus](https://www.frontendmentor.io/profile/richarcyrus)
+- Frontend Mentor - [@richardcyrus](https://www.frontendmentor.io/profile/richardcyrus)
